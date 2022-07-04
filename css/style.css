@@ -16,7 +16,6 @@
 html, body {
   background: #111;
   height: 100%;
-  font-family:   "Montserrat", sans-serif;
 }
 
 header {
@@ -206,7 +205,6 @@ nav ul li i {
 }
 
 nav ul li h4 {
-  font-family: "montserrat", sans-serif;
   font-weight: 600;
   font-size: 0.9em;
   color: #ffffff;
@@ -253,7 +251,6 @@ canvas {
 }
 
 .type h3 {
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 600;
 }
