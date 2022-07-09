@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linterex | A Hacking Community</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+<header>
+			<div class="menu">
+				<ul>
+					<li class="mo" id="so" style="--clr:#f21818;"><a class="s1"  href="https://www.youtube.com/channel/UCLkca_vuO0LGBZ56Yo-tfVw"><i class="fa-brands fa-youtube" style="color: #f21818;"></i></a></li>
+					<li class="mo" id="so" style="--clr:#f218bf;"><a class="s1" href="https://instagram.com/linterexofficial?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram" style="color: #f218bf"></i></a></li>
+					<li class="mo" id="so" style="--clr:#1877f2;"><a class="s1" href="https://www.facebook.com/profile.php?id=100082112025243"><i class="fa-brands fa-facebook-f" style="color:#1877f2;;"></i></a></li>
+          <li class="mo" id="so" style="--clr:#1da1f2;"><a class="s1" href="https://twitter.com/linterex?t=ccU30latVsZgojgnNnRZ-g&s=09"><i class="fa-brands fa-twitter" style="color:#1da1f2;"></i></a></li>
+          <li class="mo" id="so" style="--clr:#5865f2;"><a class="s1" href="#"><i class="fa-brands fa-discord" style="color:#5865f2;"></i></a></li>
+          <li class="mo" id="so" style="--clr:#0088cc;"><a class="s1" href=" https://t.me/linterexofficial"><i class="fa-brands fa-telegram" style="color: #0088cc;"></i></a></li>
+          <li class="mo" id="so" style="--clr:#0A66C2;"><a class="s1" href="#"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a></li>
+				</ul>
+			</div>
+			<div class="toggle">
+				<div class="x"></div>
+				<div class="y"></div>
+			</div>
+      <div class="content">
+    <div class="container">
+      <canvas id="Matrix"></canvas>
+      <div class="nav2">
+       <h2>Linterex</h2>
+      <div class="overlay3">
+        <div class="navigation">
+            <ul class="ul1">
+                <li class="list active">
+                    <a href="#">
+                        <span id=span1 class="icon2">
+                            <ion-icon class="ion" name="home-outline"></ion-icon>
+                        </span>
+                        <span id=span1 class="title">Home</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="/playground/index.html">
+                        <span id=span1 class="icon1">
+                            <ion-icon name="warning-outline"></ion-icon>
+                        </span>
+                        <span id=span1 class="title">Playground</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span id=span1 class="icon1">
+                            <ion-icon name="bookmarks-outline"></ion-icon>
+                        </span>
+                        <span id=span1 class="title">Resources</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span id=span1 class="icon1">
+                            <ion-icon name="storefront-outline"></ion-icon>
+                        </span>
+                        <span id=span1 class="title">Marketplace</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span id=span1 class="icon1">
+                            <ion-icon name="business-outline"></ion-icon>
+                        </span>
+                        <span id=span1 class="title">Company</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+      //add active class in selected tab 
+      const list = document.querySelectorAll('.list');
+    
+      function activeLink() {
+        list.forEach((item) =>
+          item.classList.remove('active'));
+        this.classList.add('active');
+      }
+      list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+    </script>
+    </div>
+    <div class="type">
+      <h3>Introducing <span class="auto-typed"></span></h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <div class="overlay1">
+			<div class="wrapper">
+				<div class="link_wrapper">
+					<a class="btn_link" href="#">Start Hacking</a>
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+							<path
+								d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="circle"></div>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</header>
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/move.js"></script>
+
+</body>
+</html>
